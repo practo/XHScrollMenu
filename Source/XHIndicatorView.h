@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define kXHIndicatorViewHeight 3
+#define kXHIndicatorViewHeight 4
 
 @interface XHIndicatorView : UIView
 

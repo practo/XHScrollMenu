@@ -11,8 +11,9 @@
 #import "XHMenu.h"
 #import "XHMenuButton.h"
 
-#define kXHMenuButtonPaddingX 30
-#define kXHMenuButtonStarX 8
+#define kXHMenuButtonPaddingX 60
+//startx should be 35 when billing added
+#define kXHMenuButtonStarX 60
 
 @class XHScrollMenu;
 
