@@ -135,7 +135,7 @@
                                               attributes:sizeAttributes
                                                  context:nil].size;
     //customizing indicator width
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 90, buttonSize.height)];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, buttonSize.width > 90 ? buttonSize.width : 90, buttonSize.height)];
     button.titleLabel.textAlignment = NSTextAlignmentCenter;
     button.titleLabel.font = menu.titleFont;
     [button setTitle:menu.title forState:UIControlStateNormal];
